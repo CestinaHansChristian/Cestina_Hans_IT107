@@ -1,0 +1,27 @@
+.container {
+    background-color: black;
+}
+
+.footer-images {
+    height: 50px;
+    width: 50px;
+    border-radius: 10rem;
+}
+
+.form-login {
+    height: 1000px;
+    width: 800px;
+}
+
+.border {
+    background-color: rgb(163, 149, 149);
+}
+
+.dev-profile {
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    color: white;
+}
