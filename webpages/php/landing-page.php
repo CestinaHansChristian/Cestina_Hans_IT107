@@ -17,9 +17,9 @@
                 <?php 
                     include("../html/header.html");
                 ?>
-                <form onsubmit="loadData()" class="form-group">
+                <form method=post onsubmit="loadData()" class="form-group">
                     <label for="userfield-landing">USERNAME:</label>
-                    <input type="text" class="form-control userfield-landing" name="usernameField" placeholder="Username goes here..." id="userField">
+                    <input type="text" class="form-control userfield-landing" placeholder="Username goes here..." id="userField">
                     <label for="passfield-landing">PASSWORD:</label>
                     <input type="password" class="form-control passfield-landing" placeholder="Password goes here..." id="passField"><br>
                     <button class="btn btn-dark" id="login-btn">Login</button>
