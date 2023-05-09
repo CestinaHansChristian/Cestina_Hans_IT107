@@ -27,7 +27,7 @@
                 <?php 
                     include("../html/footer.html");
                 ?>
-            </div>
+        </div>
         </div>
     </div>
 </body>

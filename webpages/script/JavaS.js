@@ -8,11 +8,18 @@ let userPass = "hans0123"
         
         let src = "../php/main-window.php"
         if((usernameField == userLogin) && (passField == userPass)) {
-            alert("logged in succressfully")
+            alert("Logged in succressfully!")
             window.close();
             window.open(src)
         }
         else {
             alert("Invalid user/pass!")
         }
+    }
+
+    function Signout_btn() {
+        let src = "../php/landing-page.php";
+        window.close();
+        alert("Logged out Successfully!");
+        window.open(src);
     }

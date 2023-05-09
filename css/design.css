@@ -25,3 +25,14 @@
 p {
     color: white;
 }
+
+#logout-btn {
+    color: rgb(216, 82, 82);
+    background-color: azure;
+    font-family: 'Times New Roman';
+}
+
+.navbar {
+    background-color: rgb(169, 125, 125);
+    border-radius: 10px;
+}

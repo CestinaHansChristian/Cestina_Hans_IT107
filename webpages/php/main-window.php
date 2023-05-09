@@ -17,7 +17,10 @@
                 <?php 
                     include("../html/header.html");
                 ?>
-                <div>
+                <div class="card-body">
+                <nav class="navbar justify-content-end p-2">
+                    <button class="navbar-toggler btn btn-outline-danger" type="button" id="logout-btn" onclick="Signout_btn()">Sign-out</button>
+                </nav>
                     <h1>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit, fuga voluptatibus cupiditate neque accusantium quam quos maxime mollitia libero odio eaque consequatur, iste cum ipsum possimus ut in eveniet.
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ducimus tempora nisi deserunt deleniti velit quisquam magnam distinctio autem odit. Nulla cum ad iste quos neque asperiores, similique dolorem voluptatem.
