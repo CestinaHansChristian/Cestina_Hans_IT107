@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'spectral';
 }
 .container {
     background-color: black;
@@ -12,29 +13,32 @@
     width: 50px;
     border-radius: 10rem;
 }
-
-.personal-col {
-    background-color: green;
-    position: relative;
-    height: 300px;
+.personal-info-top{
+    padding: 5px;
+    background-color: #bfdde2;
+    margin: 20px;
     border-radius: 20px;
-    position: relative;
+    padding-bottom: 2px;
 }
 
-.hobbies-col {
-    background-color: yellow;
-    border-radius: 20px;
+.list-unstyled {
+    color: white;
 }
 
-.first-row {
-    position: relative;
-    padding-left: 12px;
-    padding-right: 12px;
+.list-education-info {
+    padding: 5px;
+    background-color: rgb(206, 159, 159);
+    margin: 20px;
+    border-radius: 20px;
+    padding-bottom: 2px;
 }
 
-.education-col {
-    background-color: blueviolet;
+.list-hobbies-info {
+    padding: 5px;
+    background-color: rgb(178, 222, 178);
+    margin: 20px;
     border-radius: 20px;
+    padding-bottom: 2px;
 }
 
 .form-login {
@@ -55,10 +59,73 @@ p {
     color: white;
 }
 
-#logout-btn {
-    color: rgb(216, 82, 82);
+
+.btn-logout {
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.skills {
+    width: 95%;
+    background-color: rgb(128, 113, 113);
+    display: block;
+    border-radius: 20px;
+}
+
+.html-mastery {
+    width: 70%;
+    background-color: rgb(236, 178, 69);
+    text-align: end;
+}
+
+.CSS-mastery {
+    width: 65%;
+    background-color: rgb(140, 140, 239);
+    text-align: end;
+}
+
+.C-mastery {
+    width: 70%;
+    background-color: rgb(32, 32, 225);
+    text-align: end;
+}
+
+.JAVA-mastery {
+    width: 92%;
+    background-color: #1FBED6 ;
+    text-align: end;
+}
+
+.SQL-mastery {
+    width: 95%;
+    background-color: #7384a9 ;
+    text-align: end;
+}
+
+.PHP-mastery {
+    width: 30%;
+    background-color: #30c280 ;
+    text-align: end;
+}
+
+.VBNET-mastery {
+    width: 70%;
+    background-color: purple ;
+    text-align: end;
+}
+
+.JAVASCRIPT-mastery {
+    width: 40%;
+    background-color: rgb(125, 143, 38) ;
+    text-align: end;
+}
+
+.logout-btn {
     background-color: azure;
     font-family: 'Times New Roman';
+    margin-bottom: 4px;
+    font-size: 10px;
 }
 
 .navbar {
